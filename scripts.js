@@ -1,5 +1,10 @@
 console.log(document.title);
 
+// WHY NOT
+document
+  .querySelectorAll("a")
+  .forEach((a) => a.setAttribute("target", "_blank"));
+
 // 1
 let gen1 = document.getElementById("gen-1");
 gen1.innerText = "Generasión 1 Pokimon";
