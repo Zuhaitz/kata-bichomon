@@ -7,6 +7,9 @@ gen1.innerText = "Generasión 1 Pokimon";
 // 2
 let gen1List = document.querySelector(".infocard-list");
 gen1List.style.background = "#c0c0f0";
+gen1List
+  .querySelectorAll(".infocard")
+  .forEach((n) => (n.style.background = "#b0b0f0"));
 
 // 3
 console.log(document.URL);
